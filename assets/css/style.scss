@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 139px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    .logo{
+        .logo-top{
+            font-size: 30px;
+            line-height: 0.75;
+            
+        }
+}
+nav{
+    ul{
+        display: flex;
+        li{
+            margin-left: 80px;
+            
+            }
+            a{
+                font-size: 16px;
+                font-weight: 700;
+                text-transform: uppercase;
+                &:hover{
+                    color:blue ;
+                    transition: 0.4s;
+                    cursor: pointer;
+            }
+        }
+    }
+}
+.reserv{
+i{
+    margin-bottom: 20px;
+}
+}
+}
+
+
+
+#introdection{
+    height: 100vh;
+    background-color: #E7FAFE;
+    background-size: cover;
+    .book{
+        .text{
+            color: E7FAFE;;
+            margin-top: -20px;
+            margin-left: 215px;
+        }
+        .text1{
+            font-weight: 600;
+            margin-left: 195px;
+            font-size: 30px;
+            margin-top: 8px;
+           
+        }
+          .text2{
+            
+            margin-left: 192px;
+        }
+       i{
+        color: E7FAFE;;
+        margin-top: 162px;
+        margin-left: 200px;
+       }
+       .time{margin-left: 400px;
+        .fa-2xs{
+            margin-left: 400px;
+            color: red;
+        }
+       }
+    }
+    .photo{
+img{
+    width: 500px;
+    position: relative;
+    height: 350px;
+    margin-top: -61px;
+    margin-left: 729px;
+}
+}
+.catagori{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 511px;
+    position: absolute;
+}
+ .box{
+    position: absolute;
+    border: 1px solid black;
+    height: 35px;
+    width: 90px;
+    margin-top: 35px;
+    margin-left: 1000px;
+    background: #E7FAFE;
+    display: flex;
+    justify-content: center;
+.one{
+    position: absolute;
+border: 1px solid black;
+height: 140px;
+width: 190px;
+margin-left: -1825px;
+margin-top: 37px;
+background: #fff;
+
+i{
+font-size: 150px; 
+}
+
+span{
+    color: rgb(20, 19, 19);
+}
+
+
+}
+}
+}

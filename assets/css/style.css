@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 139px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+header .logo .logo-top {
+  font-size: 30px;
+  line-height: 0.75;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin-left: 80px;
+}
+header nav ul a {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+header nav ul a:hover {
+  color: blue;
+  transition: 0.4s;
+  cursor: pointer;
+}
+header .reserv i {
+  margin-bottom: 20px;
+}
+
+#introdection {
+  height: 100vh;
+  background-color: #E7FAFE;
+  background-size: cover;
+}
+#introdection .book .text {
+  color: E7FAFE;
+  margin-top: -20px;
+  margin-left: 215px;
+}
+#introdection .book .text1 {
+  font-weight: 600;
+  margin-left: 195px;
+  font-size: 30px;
+  margin-top: 8px;
+}
+#introdection .book .text2 {
+  margin-left: 192px;
+}
+#introdection .book i {
+  color: E7FAFE;
+  margin-top: 162px;
+  margin-left: 200px;
+}
+#introdection .book .time {
+  margin-left: 400px;
+}
+#introdection .book .time .fa-2xs {
+  margin-left: 400px;
+  color: red;
+}
+#introdection .photo img {
+  width: 500px;
+  position: relative;
+  height: 350px;
+  margin-top: -61px;
+  margin-left: 729px;
+}
+#introdection .catagori {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 511px;
+  position: absolute;
+}
+#introdection .box {
+  position: absolute;
+  border: 1px solid black;
+  height: 35px;
+  width: 90px;
+  margin-top: 35px;
+  margin-left: 1000px;
+  background: #E7FAFE;
+  display: flex;
+  justify-content: center;
+}
+#introdection .box .one {
+  position: absolute;
+  border: 1px solid black;
+  height: 140px;
+  width: 190px;
+  margin-left: -1825px;
+  margin-top: 37px;
+  background: #fff;
+}
+#introdection .box .one i {
+  font-size: 150px;
+}
+#introdection .box .one span {
+  color: rgb(20, 19, 19);
+}/*# sourceMappingURL=style.css.map */
